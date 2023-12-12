@@ -1,6 +1,6 @@
 Sql Script POC
 
-to load .sql file data on loan of spring boot application
+to load .sql file data on maven-install of spring boot application
 
 this is useful while testing application where a set of certain type of data is required
 
