@@ -14,14 +14,14 @@ data.sql -> for DML and required data
 
 ----------------------------------------------------------------------------------
 
-for loading custom files 
+For loading custom files 
 
 
 @Sql annotaion can be used with following parameter
 
-eg. @Sql("classpath:employee.sql")
+- eg. @Sql("classpath:employee.sql")
 -> which will execute "employee.sql" file in resources folder of application
 
-also above annotaion accepts array of arguments
+$ also above annotaion accepts array of arguments
 eg. @Sql({"classpath:sql/policy.sql","classpath:sql/paygrade_classification.sql"}) 
 
