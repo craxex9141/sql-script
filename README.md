@@ -1,4 +1,4 @@
-Sql Script POC
+### Sql Script POC
 
 to load .sql file data on maven-install of spring boot application
 
@@ -14,7 +14,7 @@ data.sql -> for DML and required data
 
 ----------------------------------------------------------------------------------
 
-For loading custom files 
+### For loading custom files 
 
 
 - @Sql annotaion can be used with following parameter
@@ -23,5 +23,6 @@ For loading custom files
 -> which will execute "employee.sql" file in resources folder of application
 
 - also above annotaion accepts array of arguments
+
 eg. @Sql({"classpath:sql/policy.sql","classpath:sql/paygrade_classification.sql"}) 
 
