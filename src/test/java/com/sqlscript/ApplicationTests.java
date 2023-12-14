@@ -39,7 +39,7 @@ class ApplicationTests {
 //	}
 
 	@Test
-	@Sql({"classpath:sql/crmsme_config_data.sql","classpath:sql/crmsme_role.sql"})
+	@Sql({"classpath:sql/paygrade_classification.sql","classpath:sql/policy.sql"})
 	void testMultipleSqlScripts(){
 
 	}
